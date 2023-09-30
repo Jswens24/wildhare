@@ -1,6 +1,6 @@
 .landing-banner {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,8 +15,13 @@
 
 .landing-img {
     height: 50%;
-    transform: rotate(-20deg);
-
+    transform: rotate(-10deg);
+    padding: 5%;
+    border: 35px solid lightblue;
+    background-color: lightblue;
+    position: absolute;
+    left: 16%;
+    bottom: 0%;
 }
 
 .landing-content {
