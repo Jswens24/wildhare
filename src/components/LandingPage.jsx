@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/LandingPage.css';
 
-const LandingPage = () => {
+const LandingPage = ({ landingRef }) => {
     return (
-        <div className='landing-banner'>
+        <div ref={landingRef} className='landing-banner'>
             <div className='blue-block'></div>
-            <img className='landing-img' src="src/assets/OilBottle1.png" alt="oil" />
+            <img className='landing-img' src="src/assets/productImages/OilBottle1.png" alt="oil" />
             <div className='landing-content'>
                 <h4>Swen's Swedish Oil</h4>
                 <h1>BROWSE OUR PREMIUM PRODUCTS</h1>

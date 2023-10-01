@@ -1,17 +1,27 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/NavbarComp.css'
 
-const NavbarComp = () => {
+const NavbarComp = ({ shopRef, aboutRef, landingRef }) => {
+
+    const handleScroll = (ref) => {
+        window.scrollTo({
+            top: ref.offsetTop,
+            left: 0,
+            behavior: "smooth",
+        });
+    };
+
+
     return (
         <div className='nav-container'>
-            <Link to='/'>
+            <Link onClick={() => { handleScroll(landingRef.current) }} to='/'>
                 <img className='nav-img' src='src/assets/NavLogo1.png' />
             </Link>
             <div className="links-div">
-                <Link className='link-style' to='/'>Home</Link>
-                <Link className='link-style' to='/about'>About</Link>
-                <Link className='link-style' to='/shop'>Shop</Link>
+                <Link onClick={() => { handleScroll(landingRef.current) }} className='link-style' to='/'>Home</Link>
+                <Link className='link-style' onClick={() => { handleScroll(shopRef.current) }} to='/#shop'>Shop</Link>
+                <Link onClick={() => { handleScroll(aboutRef.current) }} className='link-style' to='#/about'>About</Link>
             </div>
         </div>
     )
