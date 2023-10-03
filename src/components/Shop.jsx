@@ -12,9 +12,9 @@ import placeMats from '../assets/productImages/PlaceMats.jpg';
 import scienceIllistrated from '../assets/productImages/Scienceillistrated.jpg';
 import shelterBook from '../assets/productImages/ShelterBook.jpg';
 import woosterPaint from '../assets/productImages/WoosterPaintRollerCover.jpg';
-
-
+import warnerScraper from '../assets/productImages/WarnerScraper.jpg';
 import '../styles/Shop.css'
+import ProductCard from './ProductCard';
 
 const Shop = ({ shopRef }) => {
     const imageArr = [
@@ -24,26 +24,92 @@ const Shop = ({ shopRef }) => {
             imgUrl: lambSkin,
             price: 18.75
         },
-
-
+        {
+            productId: 2,
+            productName: 'Brush Saver Wet Brush Storage System',
+            imgUrl: brushSaver,
+            price: 18.75
+        },
+        {
+            productId: 3,
+            productName: '1963 Chevrolet Owners Guide',
+            imgUrl: chevyOwner,
+            price: 16.75
+        },
+        {
+            productId: 4,
+            productName: 'Set of 4 Sisal Drink Coasters',
+            imgUrl: coaster,
+            price: 9.95
+        },
+        {
+            productId: 5,
+            productName: 'Door Levers & Hinges',
+            imgUrl: doorLever,
+            price: 35.75
+        },
+        {
+            productId: 8,
+            productName: 'Great Lakes Technocrat',
+            imgUrl: greatLakesMag,
+            price: 16.50
+        },
+        {
+            productId: 9,
+            productName: 'Pair of Hard Maple',
+            imgUrl: hardMaple,
+            price: 8.75
+        },
+        {
+            productId: 10,
+            productName: '65 Mylar Lens Protectors',
+            imgUrl: mylarLens,
+            price: 39.75
+        },
+        {
+            productId: 11,
+            productName: "Swen's Swedish Oil",
+            imgUrl: swensOil,
+            price: 19.95
+        },
+        {
+            productId: 12,
+            productName: 'Set of 4 Sisal Place Mats',
+            imgUrl: placeMats,
+            price: 18.80
+        },
+        {
+            productId: 13,
+            productName: 'Science Illustrated',
+            imgUrl: scienceIllistrated,
+            price: 16.95
+        },
+        {
+            productId: 14,
+            productName: 'The Shelter Hoax & Foreign Policy',
+            imgUrl: shelterBook,
+            price: 19.95
+        },
+        {
+            productId: 15,
+            productName: 'Wooster Paint Roller',
+            imgUrl: woosterPaint,
+            price: 18.75
+        },
+        {
+            productId: 16,
+            productName: 'Warner Scraper Replacement Blades',
+            imgUrl: warnerScraper,
+            price: 14.95
+        },
     ]
 
     return (
         <div ref={shopRef}>
             {imageArr.map(product => {
-                return (
-                    <div>
-                        <img className='product-img' src={product.imgUrl} alt='product' />
-                        <h4>{product.productName}</h4>
-                    </div>
-                )
+                return <ProductCard product={product} />
             })}
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus doloribus accusantium, corrupti reprehenderit laudantium nisi ipsam debitis assumenda, ex, sequi ipsum eveniet! Fugiat cum non eum eos, dolor unde!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus doloribus accusantium, corrupti reprehenderit laudantium nisi ipsam debitis assumenda, ex, sequi ipsum eveniet! Fugiat cum non eum eos, dolor unde!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus doloribus accusantium, corrupti reprehenderit laudantium nisi ipsam debitis assumenda, ex, sequi ipsum eveniet! Fugiat cum non eum eos, dolor unde!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus doloribus accusantium, corrupti reprehenderit laudantium nisi ipsam debitis assumenda, ex, sequi ipsum eveniet! Fugiat cum non eum eos, dolor unde!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus doloribus accusantium, corrupti reprehenderit laudantium nisi ipsam debitis assumenda, ex, sequi ipsum eveniet! Fugiat cum non eum eos, dolor unde!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus doloribus accusantium, corrupti reprehenderit laudantium nisi ipsam debitis assumenda, ex, sequi ipsum eveniet! Fugiat cum non eum eos, dolor unde!</p>
+
         </div>
     )
 }
