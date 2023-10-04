@@ -3,56 +3,41 @@ import React from 'react'
 const About = ({ aboutRef }) => {
     return (
         <div ref={aboutRef}>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt iusto perspiciatis, commodi magnam eaque laudantium temporibus neque corrupti autem repellendus? Assumenda laudantium nobis voluptates porro impedit aliquid error doloribus?
-                Expedita repellendus, natus ducimus molestiae architecto blanditiis, hic ex alias fugit ad accusamus. Quasi sed maxime facere ratione deleniti quia excepturi pariatur nostrum, magni facilis natus eos porro aspernatur nam.
-                Impedit quasi ipsum sit, ab doloribus tempora. Vel mollitia debitis aut expedita eveniet, dolores sequi, aperiam exercitationem magnam corrupti porro at amet veritatis dolor nemo perferendis quae itaque obcaecati ut.
-                Illo quibusdam hic esse quasi impedit nesciunt nam dolorem sit, voluptates provident atque voluptas molestias voluptatum nemo delectus! Veniam cum nulla rerum reiciendis, reprehenderit voluptates. Veritatis nulla quo quod iure.
-                Beatae, sed praesentium doloremque esse eaque unde? Quidem dicta aliquam vero rerum cupiditate a odit repellat. Deserunt temporibus earum voluptate, assumenda quis hic? Fugiat odio quasi, recusandae vitae nesciunt quaerat!
-                Alias sapiente tenetur iure ipsa iste beatae minima esse consequuntur deserunt labore unde doloribus voluptate vel, odio dolor quod sunt placeat sit architecto minus. Ex esse repudiandae ad aspernatur tempora?
-                Rem numquam corporis nemo laborum non voluptate illo placeat eos optio a inventore explicabo porro, mollitia asperiores sunt minus! Nihil temporibus vero officia error explicabo dolor consequatur, in quos saepe.
-                Aut vel autem aliquam veritatis tenetur enim numquam similique eaque temporibus, quae laboriosam maiores a ipsum doloremque. Suscipit voluptas sapiente consequuntur animi, iusto quia adipisci. Iure voluptatum quisquam qui quia.
-                Cumque eius tempore hic fugit sunt omnis sed doloremque nesciunt commodi obcaecati dicta maxime totam, officia voluptate necessitatibus, nostrum doloribus enim qui, repudiandae saepe ea natus sequi cum iste. Odio.
-                Ducimus animi atque odio temporibus cum, incidunt fugit laboriosam porro mollitia fugiat laudantium. Quod exercitationem cupiditate maxime porro vero, sapiente enim atque sunt tempore esse aliquid sequi error reiciendis consectetur.
-                Dolore, expedita esse, deleniti ea impedit reprehenderit, ipsam quas molestiae vero perspiciatis vel saepe possimus laborum dolorum cumque magnam et. Quaerat unde harum tempore ab quisquam nam eos blanditiis voluptatum.
-                Dicta excepturi illum rem totam eos impedit obcaecati nesciunt assumenda, perspiciatis debitis vitae veniam architecto dolorem! Expedita, dignissimos impedit quod illo, quia sequi cumque vitae sint porro consequatur eius praesentium!
-                Eveniet incidunt odit magnam dolores? Illo, assumenda asperiores soluta repellat distinctio dolor fugiat, iure itaque placeat, amet provident ipsum commodi. Error provident voluptas magnam fuga. Unde commodi voluptates tenetur explicabo.
-                Delectus placeat, repellat nostrum esse laboriosam dolorum! Hic, quibusdam eum. Obcaecati optio totam ut. Numquam eaque omnis excepturi, neque veniam atque quas optio iusto, doloremque minus saepe? Sunt, incidunt autem?
-                Sequi numquam doloremque, ipsum quaerat magnam asperiores sapiente dignissimos omnis sunt distinctio! Aut facilis iusto vitae nam blanditiis saepe labore quam ea corrupti veniam suscipit placeat mollitia quos, quia deserunt?
-                Qui harum dignissimos quos eligendi blanditiis vitae fugiat sequi sit laudantium quam, ullam iusto natus ad aut, labore aliquam necessitatibus quia quod atque illo ducimus alias consectetur, commodi nihil. Eum.
-                Debitis odit fugiat officia ducimus provident corporis ea deleniti voluptatem eius natus nemo repudiandae voluptates dolorum fuga cupiditate, vero laudantium soluta maiores temporibus mollitia dolore harum dicta. Dicta, voluptatem hic?
-                Officiis illo vitae rem, iure quia, perspiciatis inventore minima ullam optio illum velit! Illum nulla possimus libero ipsam. Iste soluta laborum consequuntur omnis dolorum ipsa libero suscipit doloremque alias fugit.
-                Qui mollitia ex, iste non aspernatur perferendis esse quas necessitatibus porro, eligendi fugit voluptate quis adipisci quasi quibusdam pariatur recusandae, quod laboriosam corrupti exercitationem dolore. Repellendus quos aliquam minus sequi!
-                Numquam sed ratione natus doloribus placeat pariatur saepe, praesentium dignissimos aut accusamus modi tenetur minima excepturi ut expedita asperiores nisi, nesciunt, rerum quisquam cupiditate exercitationem dolores eligendi earum? Sunt, doloremque?
-                Veniam impedit temporibus blanditiis labore ab rem eveniet est omnis deleniti. Nemo quibusdam excepturi distinctio ab veniam, esse culpa. Nihil cumque illo hic eveniet veniam doloribus nesciunt vitae explicabo nulla.
-                Dolorem quia id repellat maxime quae dicta, animi atque? Consequatur libero quae aliquam deleniti quaerat eius quo autem in ad culpa incidunt, quibusdam ipsa, exercitationem explicabo mollitia earum cumque quidem.
-                Quos incidunt temporibus, rerum quas magnam, maxime eligendi repudiandae hic eius ea officia aperiam harum cum beatae cumque qui placeat fugiat ad? Dolores dignissimos quibusdam asperiores commodi voluptatibus, molestias consectetur.
-                Ut minus quidem ipsum architecto aspernatur ab! Ab tenetur dignissimos dolore sed quaerat, facilis doloremque, quae nobis expedita quibusdam, qui et quia blanditiis saepe veritatis vel cumque obcaecati. Ullam, accusantium.
-                Soluta sit tempore aperiam ut laudantium. Exercitationem dolores sed placeat provident dolorum unde tenetur hic alias perspiciatis reiciendis! Repellendus autem est nostrum quis perspiciatis facere aliquam expedita, modi velit. Consequatur!
-                Laborum dolorem similique velit consequuntur rerum distinctio. Officia eveniet cum sed obcaecati dolorum quos nostrum illo blanditiis excepturi eos voluptatum quo, provident voluptates minima inventore nemo molestiae voluptatibus consequatur quia!
-                Iste amet quas ratione architecto a earum quidem obcaecati assumenda, culpa, quaerat nesciunt at? At, est amet deserunt inventore suscipit, pariatur praesentium dicta facilis ullam sapiente quo sed necessitatibus corporis.
-                Tempore veniam officia unde explicabo, asperiores corporis hic facere labore ad corrupti, earum porro, assumenda voluptates fuga ab ipsum commodi possimus odio error dolore! Reiciendis modi hic magnam temporibus dolor.
-                Perspiciatis dolorum veniam incidunt, consectetur ut alias accusantium, fugiat non est consequuntur assumenda distinctio aspernatur asperiores earum modi repellat cumque veritatis dicta animi magnam iusto consequatur atque. Provident, vero quo!
-                Ad, architecto eligendi velit voluptatem facere, quisquam ullam perspiciatis corporis ipsam explicabo error cumque necessitatibus eos. Magnam, libero ea doloribus perspiciatis sapiente laudantium facilis fuga, repellat, asperiores fugit quasi corporis!
-                Molestias ratione, aut possimus laborum consequuntur rem ducimus adipisci ea deleniti voluptatem reprehenderit qui autem commodi, repellat deserunt! Laudantium deserunt consequuntur aspernatur velit possimus harum nemo vitae nisi sapiente nobis.
-                Omnis laudantium ducimus rerum nesciunt sapiente explicabo? Assumenda dolorem maxime animi perferendis fuga illum mollitia tempore aliquid nisi enim voluptates voluptatum rem expedita omnis nobis ea, nostrum architecto eligendi exercitationem!
-                Sunt corporis, consectetur cumque ratione ipsa laudantium libero repudiandae porro cupiditate minima fugit dolore, dolores consequatur nesciunt! Facilis ipsam consequuntur sit obcaecati cumque. Nostrum laboriosam, eos eveniet est laudantium velit!
-                Tempora nihil eos est sunt rerum numquam, ipsa explicabo, ducimus blanditiis possimus dolore rem. Fuga repellat labore perspiciatis at, sunt quo ut culpa amet excepturi aut ipsum error tempore aperiam.
-                Quod nam dicta quas nostrum, nemo, modi officia molestiae velit beatae quia natus tempora debitis nulla consectetur quaerat illo minus autem. Fuga quaerat unde repellendus ullam, sint quam aut excepturi.
-                Nulla sapiente quibusdam laudantium minus deleniti veritatis molestiae eius quis, illo illum qui iure repellendus aut et. Vero placeat nulla corrupti aperiam perspiciatis dolorem voluptate culpa? Perferendis ullam iste magni?
-                Voluptatibus commodi veniam recusandae distinctio fugiat impedit a eius magnam dignissimos eum voluptate quo nisi eligendi animi veritatis dolor exercitationem nobis provident est quasi architecto minima, voluptatum corporis. Minus, eius.
-                Nesciunt aspernatur explicabo, architecto provident ullam aliquam cum consequatur numquam, quos, pariatur ad eaque beatae mollitia id dolores. Voluptatem neque, doloribus optio illum officia odio perspiciatis excepturi saepe voluptatum iste.
-                Quia temporibus consectetur totam quae architecto libero reiciendis tempora voluptate. Libero fugiat harum officiis ea tempora. Aut minima, voluptates autem quaerat reiciendis voluptas, expedita ex dolorum provident amet architecto exercitationem!
-                Eum quisquam aliquid consectetur rem distinctio voluptatum reiciendis nemo vitae fugit corporis, mollitia cupiditate animi assumenda voluptate modi dolor magni eveniet? Illo harum, repudiandae facere aut animi nobis totam inventore!
-                Facilis eius magnam fugit incidunt commodi quibusdam atque, molestias in aspernatur rerum corporis laboriosam debitis reprehenderit totam error, dignissimos aperiam ut molestiae fuga cum, suscipit doloribus aut tempore numquam. Doloribus.
-                Laborum error voluptatum saepe et quas? Provident libero dolor voluptatum quo incidunt perspiciatis quae! Harum quae iusto, quos porro voluptatibus non sunt nisi odio maxime saepe consectetur tenetur alias corporis?
-                Similique aliquam, ipsa asperiores soluta itaque quaerat iusto, necessitatibus nobis ea tenetur ad provident repellendus rerum placeat. Veniam, corporis possimus exercitationem deleniti culpa, sed dolorem, optio dolorum vitae repudiandae eos.
-                Sint voluptatem inventore id tempora? Hic libero sapiente id veritatis. Suscipit, assumenda cumque quibusdam aperiam, iusto libero nihil ea et eum sed nulla quod. Sint quae natus fuga quo expedita.
-                Blanditiis consectetur facere porro dolore? Eum, iure exercitationem? Reiciendis sunt expedita asperiores adipisci odio similique tenetur aut provident, consectetur ipsam corrupti, et obcaecati perspiciatis temporibus nulla quas eaque velit molestiae!
-                Rem soluta, alias assumenda doloribus quasi laudantium aut velit architecto deleniti possimus quaerat quam distinctio rerum commodi, iusto impedit? Voluptatem aliquid culpa possimus tempore facere rerum laboriosam quas deserunt unde.
-                Ad, dicta! Possimus provident veniam neque, mollitia eius earum facere ducimus cumque fugiat illo sapiente doloribus ab officiis eveniet fugit reiciendis voluptates numquam deleniti tempore libero, exercitationem ipsam! Eos, officia.
-                Iure mollitia quos rem sunt cum suscipit eveniet. Officia saepe mollitia eveniet facere neque quisquam, earum nam odit amet quia voluptas dolores similique eligendi! Facilis distinctio illum ipsum impedit atque.
-                Fuga ea similique officiis eligendi alias laboriosam commodi cumque nobis praesentium magni deleniti atque at asperiores ipsum, voluptatem vitae facilis veritatis tempora itaque modi esse placeat. Sint distinctio placeat cum.
-                Explicabo magni consequuntur blanditiis sequi! Vitae molestiae ea corporis, a non, molestias iste qui amet natus, quibusdam voluptates facilis exercitationem facere porro aspernatur illum? Minima modi iure eum incidunt inventore?</p>
+            <h3> Meet Wildhare aka Robert: The Artisan of Commercial Construction Paint </h3>
+
+            <h5>Bringing Excellence to Every Surface</h5>
+
+            <p>Step into the world of ecommerce where precision meets passion, and where quality craftsmanship takes center stage. Here, we proudly introduce Robert, the virtuoso behind his collection of top-tier items.</p>
+
+            <h3>The Portrait of Robert</h3>
+
+            <h5>Mastering the Canvas of Commercial Construction</h5>
+
+            <p>Meet Robert, a relentless painter with a vision that goes beyond the ordinary. From the early days of his career, Robert's dedication to the art of commercial construction painting has been nothing short of exceptional. His journey, marked by perseverance and excellence, has transformed him into an industry luminary.</p>
+
+            <h3>The Art of Precision</h3>
+
+            <h5>Where Every Stroke is a Testament to Excellence</h5>
+
+            <p>In the world of commercial construction, precision is paramount. Robert's commitment to perfection is evident in every project he undertakes. With an eye for detail and a passion for quality, he has established himself as a maestro in the realm of transforming buildings into masterpieces.</p>
+
+            <h3>From Walls to Ecommerce</h3>
+
+            <h5>Bringing Expertise to the Digital Marketplace</h5>
+
+            <p>As the digital landscape evolved, Robert recognized the need to extend his expertise beyond physical walls. This realization led to the birth of our ecommerce platform, where Robert meticulously curates a range of high-quality products. Each product embodies his dedication to excellence.</p>
+
+            <h3>Dedication Beyond Measure</h3>
+
+            <h5>Elevating the Standards of Construction Painting</h5>
+
+            <p>Robert's journey from a dedicated painter to an ecommerce entrepreneur is a testament to his relentless work ethic. He has poured his heart and soul into selecting and creating each item in our collection, ensuring that only the finest solutions find their place in our digital catalog. His commitment to delivering top-tier quality sets the gold standard in commercial construction painting.</p>
+
+            <h3>Experience Robert's Vision</h3>
+
+            <p>At our ecommerce platform, you'll find more than just products; you'll discover Robert's unwavering dedication to excellence. His passion for precision, craftsmanship, and quality is woven into every item we offer. Join us in celebrating Robert's vision and products he has carefully curated for you.</p>
+
+            <p>Experience the precision. Embrace the quality. Trust in Robert's expertise.</p>
         </div>
     )
 }

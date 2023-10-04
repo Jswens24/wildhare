@@ -105,7 +105,7 @@ const Shop = ({ shopRef }) => {
     ]
 
     return (
-        <div ref={shopRef}>
+        <div className='shop-container' ref={shopRef}>
             {imageArr.map(product => {
                 return <ProductCard product={product} />
             })}

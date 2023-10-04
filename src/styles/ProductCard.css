@@ -1,8 +1,28 @@
 .product-img {
     height: 200px;
+    width: 200px;
 }
 
 .product-card-div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    margin: 2%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 15%;
 
+}
+
+.product-card-div:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-name-div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
