@@ -1,0 +1,39 @@
+.headshot {
+    height: 600px;
+    border-radius: 10%;
+}
+
+.about-container {
+    padding-top: 10%;
+    background-color: rgb(230, 236, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.about-heading {
+    font-size: xx-large;
+}
+
+.about-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bio-div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bio-div-bottom {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

@@ -6,8 +6,9 @@ const ProductCard = ({ product }) => {
         <div className='product-card-div'>
             <img className='product-img' src={product.imgUrl} alt='product' />
             <div className="product-name-div">
-                <h4>{product.productName}</h4>
+                <p className='product-margin'>{product.productName}</p>
             </div>
+            <p className='price-margin'>${product.price}</p>
         </div>
     )
 }

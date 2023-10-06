@@ -7,6 +7,7 @@ import NavbarComp from './components/NavbarComp'
 import LandingPage from './components/LandingPage'
 import Shop from './components/Shop'
 import About from './components/About'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
       <LandingPage landingRef={landingRef} />
       <Shop shopRef={shopRef} />
       <About aboutRef={aboutRef} />
+      <Footer />
     </>
   )
 }

@@ -26,3 +26,12 @@
     flex-wrap: wrap;
     text-align: center;
 }
+
+.product-margin {
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.price-margin {
+    margin-top: 0px;
+}

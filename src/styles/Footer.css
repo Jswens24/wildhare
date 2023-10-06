@@ -1,0 +1,11 @@
+.jess-trademark {
+    padding-top: 2%;
+    font-size: small;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
