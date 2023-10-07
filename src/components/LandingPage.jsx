@@ -1,7 +1,17 @@
 import React from 'react';
 import '../styles/LandingPage.css';
 
-const LandingPage = ({ landingRef }) => {
+const LandingPage = ({ landingRef, shopRef }) => {
+
+    const handleScroll = (ref) => {
+        window.scrollTo({
+            top: ref.offsetTop,
+            left: 0,
+            behavior: "smooth",
+        });
+    };
+
+
     return (
         <div ref={landingRef} className='landing-banner'>
             <div className='blue-block'></div>
@@ -10,7 +20,7 @@ const LandingPage = ({ landingRef }) => {
                 <h4>Swen's Swedish Oil</h4>
                 <h1>BROWSE OUR PREMIUM PRODUCTS</h1>
                 <p>Discover a diverse collection of high-quality items meticulously curated for your satisfaction. From home decor to vintage magazines, our eBay store offers top-notch products that cater to every taste and need.</p>
-                <button className='button-9' href="/shop">Browse Now</button>
+                <button onClick={() => { handleScroll(shopRef.current) }} className='button-9' href="/shop">Browse Now</button>
             </div>
         </div>
     )
