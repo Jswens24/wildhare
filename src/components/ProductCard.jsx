@@ -1,12 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/ProductCard.css';
 import { Link } from 'react-router-dom';
+import DetailView from './DetailView';
 
 const ProductCard = ({ product }) => {
-
-    const clickToDetailView = (e) => {
-
-    }
+    const [isOpen, setIsOpen] = useState(false)
 
     return (
         <div className='product-card-div'>
@@ -15,7 +13,7 @@ const ProductCard = ({ product }) => {
                 <p className='product-margin'>{product.productName}</p>
             </div>
             <p className='price-margin'>${product.price}</p>
-            <Link className='button-9 buy-btn' to={`/detail/${product.productId}`}>Buy Now </Link>
+            <button className='button-9 buy-btn'>Buy Now </button>
         </div>
     )
 }
