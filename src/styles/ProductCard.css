@@ -64,6 +64,9 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button-9:disabled {

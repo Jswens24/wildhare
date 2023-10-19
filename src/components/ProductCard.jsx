@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 import DetailView from './DetailView';
 
 const ProductCard = ({ product }) => {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
+
+    const cardDetailHandler = () => {
+        console.log(product.productId);
+    }
 
     return (
         <div className='product-card-div'>
@@ -13,7 +17,7 @@ const ProductCard = ({ product }) => {
                 <p className='product-margin'>{product.productName}</p>
             </div>
             <p className='price-margin'>${product.price}</p>
-            <button className='button-9 buy-btn'>Buy Now </button>
+            <button onClick={cardDetailHandler} className='button-9 buy-btn'>Buy Now </button>
         </div>
     )
 }

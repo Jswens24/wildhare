@@ -44,3 +44,20 @@
 html {
   scroll-behavior: smooth;
 }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.app-container {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}

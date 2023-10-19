@@ -15,13 +15,13 @@ const NavbarComp = ({ shopRef, aboutRef, landingRef }) => {
 
     return (
         <div className='nav-container'>
-            <Link onClick={() => { handleScroll(landingRef.current) }} to='/'>
+            <Link to={'/'} onClick={() => { handleScroll(landingRef.current) }}>
                 <img className='nav-img' src='src/assets/NavLogo1.png' />
             </Link>
             <div className="links-div">
-                <Link onClick={() => { handleScroll(landingRef.current) }} className='link-style'>Home</Link>
-                <Link className='link-style' onClick={() => { handleScroll(shopRef.current) }}>Shop</Link>
-                <Link onClick={() => { handleScroll(aboutRef.current) }} className='link-style'>About</Link>
+                <Link to={'/'} onClick={() => { handleScroll(landingRef.current) }} className='link-style'>Home</Link>
+                <Link to={'/shop'} className='link-style' onClick={() => { handleScroll(shopRef.current) }}>Shop</Link >
+                <Link to={'/about'} onClick={() => { handleScroll(aboutRef.current) }} className='link-style'>About</Link>
             </div>
         </div>
     )

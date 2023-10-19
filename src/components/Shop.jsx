@@ -107,7 +107,7 @@ const Shop = ({ shopRef }) => {
     return (
         <div className='shop-container' ref={shopRef}>
             {imageArr.map(product => {
-                return <ProductCard product={product} />
+                return <ProductCard key={product.productId} product={product} />
             })}
 
         </div>

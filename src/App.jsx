@@ -14,14 +14,11 @@ function App() {
   const landingRef = useRef(null);
 
   return (
-    <>
+    <div className='app-container'>
       <NavbarComp shopRef={shopRef} aboutRef={aboutRef} landingRef={landingRef} />
       <RoutesContainer />
-      <LandingPage shopRef={shopRef} landingRef={landingRef} />
-      <Shop shopRef={shopRef} />
-      <About aboutRef={aboutRef} />
       <Footer />
-    </>
+    </div>
   )
 }
 

@@ -11,10 +11,10 @@ const RoutesContainer = () => {
     return (
         <div>
             <Routes>
-                {/* <Route path='/' />
-                <Route path='/#about' />
-                <Route path='/#shop' />
-                <Route path='/detail/:id' element={<DetailView />} /> */}
+                <Route path='/' element={<LandingPage />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/shop' element={<Shop />} />
+                <Route path='/detail/:id' element={<DetailView />} />
             </Routes>
         </div>
     )
