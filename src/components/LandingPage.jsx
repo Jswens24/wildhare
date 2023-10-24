@@ -16,7 +16,8 @@ const LandingPage = ({ landingRef, shopRef, aboutRef }) => {
 
 
     return (
-        <>
+
+        <div className='landing-top-div'>
             <div ref={landingRef} className='landing-banner'>
                 <div className='blue-block'></div>
                 <img className='landing-img' src="src/assets/productImages/OilBottle1.png" alt="oil" />
@@ -31,7 +32,7 @@ const LandingPage = ({ landingRef, shopRef, aboutRef }) => {
             </div>
             <Shop />
             <About />
-        </>
+        </div>
     )
 }
 

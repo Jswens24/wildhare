@@ -20,8 +20,8 @@ const NavbarComp = ({ shopRef, aboutRef, landingRef }) => {
             </Link>
             <div className="links-div">
                 <Link to={'/'} onClick={() => { handleScroll(landingRef.current) }} className='link-style'>Home</Link>
-                <Link to={'/shop'} className='link-style' onClick={() => { handleScroll(shopRef.current) }}>Shop</Link >
-                <Link to={'/about'} onClick={() => { handleScroll(aboutRef.current) }} className='link-style'>About</Link>
+                <Link to={'/shop'} className='link-style-padding link-style' onClick={() => { handleScroll(shopRef.current) }}>Shop</Link >
+                <Link to={'/about'} onClick={() => { handleScroll(aboutRef.current) }} className='link-style-padding link-style'>About</Link>
             </div>
         </div>
     )

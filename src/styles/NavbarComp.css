@@ -30,3 +30,30 @@
     color: black;
     font-size: 1.5rem;
 }
+
+@media (max-width: 510px) {
+    .nav-container {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .links-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .link-style {
+        font-size: medium;
+    }
+
+    .link-style-padding {
+        padding-top: 10%;
+    }
+
+    .nav-img {
+        height: 100px;
+    }
+}

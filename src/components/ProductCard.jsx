@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
             <div className="product-name-div">
                 <p className='product-margin'>{product.productName}</p>
             </div>
-            <p className='price-margin'>${product.price}</p>
+            <p className='price-margin'>${product.price.toFixed(2)}</p>
             <Link className='link-btn-product' to={`/detail/${product.productId}`}>
                 <button className='button-9 buy-btn'>Buy Now </button>
             </Link>

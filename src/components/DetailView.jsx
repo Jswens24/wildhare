@@ -20,7 +20,7 @@ const DetailView = () => {
                 <h2>{product.productName}</h2>
                 <img className='detail-img' src={product.imgUrl} alt="product" />
                 <div className="price-buy">
-                    <h4>${product.price}</h4>
+                    <h4>${product.price.toFixed(2)}</h4>
                     <a target='_blank' href={product.link}>
                         <button className='button-9-detail buy'>Buy Now</button>
                     </a>
