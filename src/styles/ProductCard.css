@@ -94,3 +94,14 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 510px) {
+    .shop-container {
+        width: 123%;
+        padding-top: 25%;
+    }
+
+    .product-card-div {
+        width: 64%;
+    }
+}

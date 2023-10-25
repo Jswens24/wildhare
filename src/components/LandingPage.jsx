@@ -26,7 +26,7 @@ const LandingPage = ({ landingRef, shopRef, aboutRef }) => {
                     <h1>BROWSE OUR PREMIUM PRODUCTS</h1>
                     <p>Discover a diverse collection of high-quality items meticulously curated for your satisfaction. From home decor to vintage magazines, our eBay store offers top-notch products that cater to every taste and need.</p>
                     <Link className='landing-link' to={'/shop'}>
-                        <button onClick={() => { handleScroll(shopRef.current) }} className='button-9' href="/shop">Browse Now</button>
+                        <button onClick={() => { handleScroll(shopRef.current) }} className='button-browse' href="/shop">Browse Now</button>
                     </Link>
                 </div>
             </div>

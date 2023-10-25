@@ -109,3 +109,20 @@
 .bold {
     font-weight: bolder;
 }
+
+@media (max-width: 510px) {
+    .button-div {
+        width: 123%;
+    }
+
+    .detail-img {
+        height: 31vh;
+    }
+
+    .detail-container {}
+
+    .detail-container h2 {
+        font-size: x-large;
+    }
+
+}
