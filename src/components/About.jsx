@@ -1,12 +1,14 @@
 import React from 'react';
-import '../styles/About.css'
+import '../styles/About.css';
+import robertHeadshot from '../assets/RobertHeadshot.png';
+import gAndG from '../assets/G&G.png';
 
 const About = ({ aboutRef }) => {
     return (
         <div className='about-container' ref={aboutRef}>
             <h3 className='about-heading'> Meet Wildhare aka Robert </h3>
             <div className='about-div'>
-                <img className='headshot' src='src/assets/RobertHeadshot.png' alt='head shot' />
+                <img className='headshot' src={robertHeadshot} alt='head shot' />
                 <div className='bio-div'>
                     <h3>Bringing Excellence to Every Surface</h3>
 
@@ -46,7 +48,7 @@ const About = ({ aboutRef }) => {
 
                     <p>Experience the precision. Embrace the quality. Trust in Robert's expertise.</p>
                 </div>
-                <img className='headshot' src='src/assets/G&G.png' alt='g & g' />
+                <img className='headshot' src={gAndG} alt='g & g' />
             </div>
         </div>
     )

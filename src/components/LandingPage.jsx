@@ -3,6 +3,7 @@ import '../styles/LandingPage.css';
 import Shop from './Shop';
 import About from './About';
 import { Link } from 'react-router-dom';
+import oilImg from '../assets/productImages/oil.png'
 
 const LandingPage = ({ landingRef, shopRef, aboutRef }) => {
 
@@ -20,7 +21,7 @@ const LandingPage = ({ landingRef, shopRef, aboutRef }) => {
         <div className='landing-top-div'>
             <div ref={landingRef} className='landing-banner'>
                 <div className='blue-block'></div>
-                <img className='landing-img' src="src/assets/productImages/OilBottle1.png" alt="oil" />
+                <img className='landing-img' src={oilImg} alt="oil" />
                 <div className='landing-content'>
                     <h4>Swen's Swedish Oil</h4>
                     <h1>BROWSE OUR PREMIUM PRODUCTS</h1>
