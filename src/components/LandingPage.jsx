@@ -3,7 +3,7 @@ import '../styles/LandingPage.css';
 import Shop from './Shop';
 import About from './About';
 import { Link } from 'react-router-dom';
-import oilImg from '../assets/productImages/oil.png'
+import oilImg from '../assets/productImages/OilBottle1.png'
 
 const LandingPage = ({ landingRef, shopRef, aboutRef }) => {
 
