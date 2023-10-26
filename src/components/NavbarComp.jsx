@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/NavbarComp.css'
+import navImg from 'src/assets/NavLogo1.png'
 
 const NavbarComp = ({ shopRef, aboutRef, landingRef }) => {
 
@@ -16,7 +17,7 @@ const NavbarComp = ({ shopRef, aboutRef, landingRef }) => {
     return (
         <div className='nav-container'>
             <Link to={'/'} onClick={() => { handleScroll(landingRef.current) }}>
-                <img className='nav-img' src='src/assets/NavLogo1.png' />
+                <img className='nav-img' src={navImg} />
             </Link>
             <div className="links-div">
                 <Link to={'/'} onClick={() => { handleScroll(landingRef.current) }} className='link-style'>Home</Link>
