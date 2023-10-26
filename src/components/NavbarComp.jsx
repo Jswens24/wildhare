@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/NavbarComp.css'
-import navImg from 'src/assets/NavLogo1.png'
+import navImg from '../assets/NavLogo1.png';
 
 const NavbarComp = ({ shopRef, aboutRef, landingRef }) => {
 
