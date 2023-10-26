@@ -23,7 +23,7 @@ const LandingPage = ({ landingRef, shopRef, aboutRef }) => {
                 <div className='blue-block'></div>
                 <img className='landing-img' src={oilImg} alt="oil" />
                 <div className='landing-content'>
-                    <h4>Swen's Swedish Oil</h4>
+                    <h4>Featuring: Swen's Swedish Oil</h4>
                     <h1>BROWSE OUR PREMIUM PRODUCTS</h1>
                     <p>Discover a diverse collection of high-quality items meticulously curated for your satisfaction. From home decor to vintage magazines, our eBay store offers top-notch products that cater to every taste and need.</p>
                     <Link className='landing-link' to={'/shop'}>

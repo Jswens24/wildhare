@@ -136,7 +136,7 @@
     .landing-content h4 {
         font-size: 1.5rem;
         color: gray;
-        display: none;
+        /* display: none; */
     }
 
     .landing-content h1 {
