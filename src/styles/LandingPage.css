@@ -86,15 +86,15 @@
 
 @media (max-width: 510px) {
     .landing-banner {
-        height: 130vh;
-        width: 123%;
+        height: 107vh;
+        /* width: 123%; */
     }
 
     .landing-img {
         padding: 0;
-        height: 30%;
-        left: 11%;
-        bottom: 13%;
+        height: 17%;
+        left: 8%;
+        bottom: 30%;
     }
 
     .landing-top-div {
@@ -131,6 +131,31 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .landing-content h4 {
+        font-size: 1.5rem;
+        color: gray;
+        display: none;
+    }
+
+    .landing-content h1 {
+        display: none;
+    }
+
+    .landing-content h1 {
+        font-weight: 100;
+        font-size: medium;
+    }
+
+    .landing-content {
+        .landing-content {
+            width: 40%;
+            padding-right: 41px;
+            padding-left: 60px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            z-index: 2;
+        }
     }
 
 }

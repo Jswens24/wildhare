@@ -112,7 +112,7 @@
 
 @media (max-width: 510px) {
     .button-div {
-        width: 123%;
+        /* width: 123%; */
     }
 
     .detail-img {
