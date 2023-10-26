@@ -123,4 +123,8 @@
         font-size: x-large;
     }
 
+    .specs-container {
+        width: 67%;
+    }
+
 }
